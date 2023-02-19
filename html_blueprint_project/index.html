@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamalavida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    <div class = "main">
+    <div class = "navbar">
+        <!-- <ul>
+        <li> <button class = "navClass">User</button></li>
+        <li> <img src="./assets/Facebook-logo.png" alt="facebook" id="facebook" class = "navClass"> </li>
+        <li> <img src="./assets/instagram_logo.png" alt="instagram" id="instagram" class = "navClass"> </li>
+        <li> <img src="./assets/twitter_logo.png" alt="twitter"id="facebook" class = "navClass"> </li>
+        <li style="float:right" class = "navClass"> <button class = "leaderboardButton">Leaderboard</button> </li>
+        </ul> -->
+
+            <nav>
+            <h7 id = "title" float: "left">Gamalavida</h7>
+            <button class = "button" id = "userButton" float: "left">User</button>
+            <div class="social">
+            <img src="./assets/Facebook-logo.png" alt="facebook" id="facebook" class = "navClass"> 
+            <img src="./assets/instagram_logo.png" alt="instagram" id="instagram" class = "navClass"> 
+            <img src="./assets/twitter_logo.png" alt="twitter"id="twitter" class = "navClass"> 
+            </div>
+            <button id = "leaderboardButton" class = "button" >Leaderboard</button> 
+            </nav>
+            <hr>
+
+    </div>
+    <div class = "activities">
+        <p id = "scoreText">Score: 0<p>
+        <ul>
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes" id = "checkboxid" onchange="doalert(this)">
+                Homework
+                <button class="button-class">Remove</button>
+                <button class="button-class">Change</button>
+            </li>
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes"  onchange="doalert(this)">
+                Getting 8 hours of sleep
+                <button class="button-class">Remove</button>
+                <button class="button-class">Change</button>
+            </li>
+                
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes"  onchange="doalert(this)">
+                Exercise
+                <button class="button-class">Remove</button>
+                <button class="button-class">Change</button>
+            </li>
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes"  onchange="doalert(this)">
+                Brushing teeth twice a day
+                <button class="button-class">Remove</button>
+                <button class="button-class">Change</button>
+            </li>
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes"  onchange="doalert(this)">
+                Make the bed
+                <button class="button-class">Remove</button>
+                <button class="button-class">Change</button>
+            </li>
+                
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes"  onchange="doalert(this)">
+                Shower
+                <button class="button-class">Remove</button>
+                <button class="button-class">Change</button>
+            </li>
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes"  onchange="doalert(this)">
+                Activity 7
+                <button class="button-class">Add</button>
+            </li>
+            <li class = "list-activities">
+                <input type="checkbox" class = "checkboxes"  onchange="doalert(this)">
+                Activity 8
+                <button class="button-class">Add</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>
